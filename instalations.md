@@ -1,3 +1,15 @@
+## Sumário
+
+- [🚀 Como Criar uma Conta no GitHub](#-como-criar-uma-conta-no-github)
+- [🛠️ Instalação do Node.js LTS](#️-instalação-do-nodejs-lts)
+- [🛠️ Instalação do Git no Windows](#-instalação-do-git-no-windows)
+
+## 📚 Introdução
+
+Nesta documentação, vamos explorar passo a passo a criação de uma conta no GitHub, a instalação do Node.js LTS e a instalação do Git no Windows. Acompanhe os tutoriais abaixo para começar a aproveitar essas ferramentas incríveis para desenvolvedores!
+
+---
+
 ## 🚀 Como Criar uma Conta no GitHub
 
 1. **Acesse o Site do GitHub**
@@ -108,9 +120,10 @@ Siga esses passos para instalar o Node.js versão LTS no seu sistema:
    node -v
    npm -v
    ```
+Agora você tem o Node.js versão LTS instalado no seu sistema e pode começar a desenvolver aplicações incríveis!
 
 
-   ## 🚀 Instalação do Git no Windows
+## 🛠️ Instalação do Git no Windows
 
 Siga esses passos para instalar o Git no seu sistema Windows:
 
@@ -197,4 +210,3 @@ Siga esses passos para instalar o Git no seu sistema Windows:
     ![Verificar Instalação](insira_o_link_da_imagem_aqui)
 
 Agora você tem o Git instalado no seu sistema Windows e está pronto para começar a colaborar e versionar seus projetos! 🌟
-
