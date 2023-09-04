@@ -7,13 +7,14 @@
     <title>{{ page.title }}</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            {{ content }}
-        </div>
-        <div class="sidebar">
-            {% include _sidebar.md %}
-        </div>
-    </div>
+   <div class="container">
+   <div class="content">
+       {{ content }}
+   </div>
+   <div class="sidebar">
+       {% include_relative _sidebar.md %}
+   </div>
+</div>
+
 </body>
 </html>
