@@ -5,6 +5,7 @@
 
 ## 🛠️ Instalação e Configuração
 - [🚀 Como Criar uma Conta no GitHub](instalations.md#como-criar-uma-conta-no-github)
+- [Como Criar um Repositório no GitHub](create_repository.md)
 - [📦 Instalação do Node.js LTS](instalations.md#instalação-do-nodejs-lts)
 - [📦 Instalação do Git no Windows](instalations.md#instalação-do-git-no-windows)
 
