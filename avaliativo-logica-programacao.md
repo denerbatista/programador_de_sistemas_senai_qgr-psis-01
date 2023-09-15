@@ -20,7 +20,7 @@ O projeto de jogo de adivinhação valerá 6 pontos.
 
 As melhorias nas atividades e no projeto valerão 2 pontos totalizando 10.
 
-### Enviar Link do Repositório para o [endereço de e-mail (dbatista@findes.org.br)](mailto:dbatista@findes.org.br)
+#### Enviar Link do Repositório para o [endereço de e-mail (dbatista@findes.org.br)](mailto:dbatista@findes.org.br)
 
 
 #### Entrega prevista para 18-09-2023 Boa Sorte !
