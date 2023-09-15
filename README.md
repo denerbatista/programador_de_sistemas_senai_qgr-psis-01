@@ -29,4 +29,11 @@
 - [📚 Vetores](class%20(6,7,8,9,10)%20from%2004-09-2023%20to12-09-2023.md#-vetores)
 - [📚 Estruturas de Repetição](class%20(6,7,8,9,10)%20from%2004-09-2023%20to12-09-2023.md#-estruturas-de-repetição)
 - [📚 Exercícios de Programação](class%20(6,7,8,9,10)%20from%2004-09-2023%20to12-09-2023.md#exercícios-de-programação)
+
+  ### Aula 11, 12, 13 (13-09-2023 a 15-09-2023)
 - [🎮 Projeto Jogo de Adivinhação](class%20(6,7,8,9,10)%20from%2004-09-2023%20to12-09-2023.md#projeto)
+
+  ### Avaliação Portugol
+
+- [📝 Informação Sobre os Conteúdos a Serem Avaliados](https://github.com/denerbatista/programador_de_sistemas_senai_qgr-psis-01/blob/main/avaliativo-logica-programacao.md)
+
