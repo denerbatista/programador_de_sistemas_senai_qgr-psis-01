@@ -20,4 +20,4 @@ O projeto de jogo de adivinhação valerá 6 pontos.
 
 As melhorias nas atividades e no projeto valerão 2 pontos totalizando 10.
 
-Boa sorte!
+#### Entrega prevista para 18-09-2023 Boa Sorte !
