@@ -39,36 +39,19 @@
 
 ### Aula 14, 15, 16, 17, 18 (18-09-2023 a 21-09-2023)
 
-1. [🚀 **JavaScript: A Linguagem que Impulsiona a Web**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#1-javascript-a-linguagem-que-impulsiona-a-web)
+- [🚀 **JavaScript: A Linguagem que Impulsiona a Web**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#1-javascript-a-linguagem-que-impulsiona-a-web)
 
-2. [💡 **A Fascinante Evolução do JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#2-a-fascinante-evolucao-do-javascript)
+- [💡 **A Fascinante Evolução do JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#2-a-fascinante-evolucao-do-javascript)
 
-3. [💡 **Manipulação de Dados em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#3-manipulacao-de-dados-em-javascript)
+- [💡 **Manipulação de Dados em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#3-manipulacao-de-dados-em-javascript)
 
-   3.1. [Exibição de Dados com `console.log`](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#31-exibicao-de-dados-com-consolelog)
+- [💡 **Variáveis em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#4-variaveis-em-javascript)
 
-   3.2. [Coleta de Dados com `prompt`](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#32-coleta-de-dados-com-prompt)
+- [💡 **Operadores Aritméticos em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#5-operadores-aritmeticos-em-javascript)
 
-4. [💡 **Variáveis em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#4-variaveis-em-javascript)
+- [💡 **Estruturas Condicionais em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#6-estruturas-condicionais-em-javascript)
 
-   4.1. [Var (Desencorajado)](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#41-var-desencorajado)
+- [💡 **Arrays em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#7-arrays-em-javascript)
 
-   4.2. [Let](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#42-let)
+- [💡 **Estruturas de Repetição em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#8-estruturas-de-repeticao-em-javascript)
 
-   4.3. [Const (Constante)](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#43-const-constante)
-
-5. [💡 **Operadores Aritméticos em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#5-operadores-aritmeticos-em-javascript)
-
-6. [💡 **Estruturas Condicionais em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#6-estruturas-condicionais-em-javascript)
-
-   6.1. [Desvio Condicional Simples: IF](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#61-desvio-condicional-simples-if)
-
-   6.2. [Desvio Condicional: IF / ELSE](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#62-desvio-condicional-if-else)
-
-7. [💡 **Arrays em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#7-arrays-em-javascript)
-
-8. [💡 **Estruturas de Repetição em JavaScript**](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#8-estruturas-de-repeticao-em-javascript)
-
-   8.1. [Repetição com `for`](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#81-repeticao-com-for)
-
-   8.2. [Repetição com `while`](class%20(14%2C%2015%2C%2016%2C%2017%2C%2018)%20from%2018-09-2023%20a%2022-09-2023.md#82-repeticao-com-while)
