@@ -163,3 +163,10 @@
      // Chamando a função
      saudacao("Alice"); // Saída: Olá, Alice!
      ```
+
+## Comando para Adicionar Conta GIT
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+```
