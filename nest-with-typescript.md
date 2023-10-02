@@ -1,82 +1,4 @@
-# Aula de Programação: Introdução ao TypeScript e NestJS
-🚀
-
-## Objetivos
-Nesta semana, você será introduzido ao TypeScript e ao framework NestJS. Vamos explorar os conceitos básicos do TypeScript e como ele se integra ao NestJS para criar aplicações robustas e escaláveis.
-
-## Conteúdo da Aula
-1. **Introdução ao TypeScript** 📜
-   - O que é TypeScript? 🤔
-   - Por que usar TypeScript? ✅
-   - Diferenças entre TypeScript e JavaScript. ↔️
-   - Configuração inicial do ambiente de desenvolvimento. 🛠️
-
-2. **Fundamentos do TypeScript** 🧠
-   - Tipos de dados básicos (number, string, boolean, etc.). 📊
-   - Declaração de variáveis com tipos. 📝
-   - Tipos de dados personalizados (interfaces e tipos). 🏷️
-   - Anotações de tipos em funções. 📌
-
-3. **Classes e Objetos em TypeScript** 🧩
-   - Declaração de classes em TypeScript. 🏗️
-   - Herança e encapsulamento. 🧬
-   - Interfaces em TypeScript. 🌐
-   - Uso de classes e interfaces em projetos TypeScript. 🏭
-
-4. **Introdução ao NestJS** 🐦
-   - O que é o NestJS? 🏗️
-   - Arquitetura baseada em módulos. 🧱
-   - Controladores, serviços e módulos. 🎛️
-   - Configuração inicial de um projeto NestJS. 🚧
-
-5. **Roteamento e Controladores no NestJS** 🌐
-   - Criando rotas com Decorators. 🗺️
-   - Criando controladores para tratar requisições HTTP. 🎮
-   - Injeção de dependências em controladores. 📦
-
-6. **Serviços e Injeção de Dependências** 🧪
-   - Criando serviços no NestJS. ⚙️
-   - Injeção de dependências usando Decorators. 📦
-   - Conexão entre controladores e serviços. 🔄
-
-7. **Middleware e Pipes** 🛡️
-   - Uso de middleware para interceptar requisições. 🌐
-   - Validando dados de entrada com pipes. 🔍
-   - Criando pipes personalizados. 🧰
-
-8. **Bancos de Dados e TypeORM** 🗃️
-   - Introdução ao TypeORM. 🏢
-   - Configuração de conexões com bancos de dados. 🛢️
-   - Criação de entidades e repositórios. 📦
-
-9. **Autenticação e Autorização** 🔐
-   - Implementando autenticação com JWT. 🔑
-   - Protegendo rotas com guardas de rota. 🚧
-
-10. **Testando Aplicações NestJS** 🧪
-    - Configuração de testes unitários e de integração. 🧪
-    - Usando bibliotecas de teste como Jest. 🃏
-    - Escrevendo testes para controladores e serviços. 📝
-
-## Atividades Práticas
-Durante a aula, os alunos terão a oportunidade de realizar atividades práticas para reforçar o aprendizado. Exemplos de atividades incluem:
-- Configurar um projeto NestJS básico. 🏗️
-- Criar um controlador para manipular requisições HTTP. 🎮
-- Implementar autenticação com JWT. 🔐
-- Criar e testar serviços que se conectam a um banco de dados. 🗃️
-
-## Recursos de Apoio
-Os alunos terão acesso a recursos adicionais, como documentação oficial, tutoriais online e exemplos de código, para auxiliá-los no desenvolvimento de suas habilidades em TypeScript e NestJS.
-
-## Avaliação
-A aula será avaliada com base na participação dos alunos nas atividades práticas, na compreensão dos conceitos apresentados e na capacidade de aplicar esses conceitos em projetos reais.
-
-## Conclusão
-Ao final desta aula, os alunos terão uma compreensão sólida do TypeScript e do framework NestJS, permitindo-lhes criar aplicações web modernas e escaláveis com confiança. Eles também estarão preparados para continuar explorando e aprofundando seus conhecimentos nessas tecnologias por conta própria. 🎓
-
-
 ## 1. Introdução ao TypeScript 📜
-
 
 ### O que é TypeScript? 🤔
 O TypeScript é uma linguagem de programação desenvolvida pela Microsoft que adiciona recursos de tipagem estática ao JavaScript. Isso significa que no TypeScript, você pode declarar tipos de dados para suas variáveis, parâmetros de função e retornos de função. Essa tipagem estática ajuda os desenvolvedores a pegar erros de tipo em tempo de desenvolvimento, tornando o código mais seguro e legível.
@@ -188,3 +110,82 @@ function soma(a: number, b: number): number {
     return a + b;
 }
 ```
+
+Neste exemplo, a função soma espera dois parâmetros do tipo number e retorna um valor do tipo number.
+
+Os fundamentos do TypeScript, como o uso de tipos de dados, interfaces, tipos personalizados e anotações de tipos em funções, são essenciais para criar código TypeScript robusto e seguro.
+
+## 3. Classes e Objetos em TypeScript 🧩
+
+### Declaração de classes em TypeScript 🏗️
+Em TypeScript, as classes são uma parte fundamental da programação orientada a objetos. Você pode criar classes usando a palavra-chave `class` e definir propriedades e métodos dentro delas.
+
+Exemplo em TypeScript:
+
+```typescript
+class Pessoa {
+    nome: string;
+    idade: number;
+
+    constructor(nome: string, idade: number) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    apresentar() {
+        console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    }
+}
+```
+
+### Herança e encapsulamento 🧬
+
+O TypeScript suporta herança de classes usando a palavra-chave extends. Além disso, você pode controlar o acesso às propriedades e métodos de uma classe usando os modificadores de acesso public, private e protected.
+
+Exemplo de herança em TypeScript:
+
+```typescript
+class Aluno extends Pessoa {
+    matricula: string;
+
+    constructor(nome: string, idade: number, matricula: string) {
+        super(nome, idade);
+        this.matricula = matricula;
+    }
+
+    estudar() {
+        console.log(`${this.nome} está estudando.`);
+    }
+}
+```
+
+### Interfaces em TypeScript 🌐
+
+As interfaces são usadas para definir contratos que as classes devem seguir. Elas especificam quais métodos e propriedades uma classe deve implementar.
+
+Exemplo de interface em TypeScript:
+
+```typescript
+interface Veiculo {
+    acelerar(): void;
+    frear(): void;
+}
+
+class Carro implements Veiculo {
+    acelerar() {
+        console.log("Carro acelerando...");
+    }
+
+    frear() {
+        console.log("Carro freando...");
+    }
+}
+```
+
+### Uso de classes e interfaces em projetos TypeScript 🏭
+
+Em projetos TypeScript, as classes e interfaces desempenham um papel fundamental na organização e estruturação do código. Classes representam objetos e suas funcionalidades, enquanto as interfaces definem contratos que garantem consistência no código.
+
+Ao projetar sistemas em TypeScript, é comum usar classes para modelar objetos do mundo real e usar interfaces para especificar as interações esperadas entre esses objetos.
+
+O uso correto de classes, herança, encapsulamento e interfaces é essencial para criar projetos TypeScript robustos e de fácil manutenção.
